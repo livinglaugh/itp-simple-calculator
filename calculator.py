@@ -15,7 +15,7 @@ def subtract(x, y):
 def divide(x, y):
     if type(x) != int or type(y) != int:
         return None
-    elif x = 0 or y = 0:
+    elif y == 0:
         return "Invalid value for denominator, can't divide by 0!"
     else:
         return x / y
