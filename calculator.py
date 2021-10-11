@@ -50,5 +50,5 @@ def sqrt(x):
     if type(x) != int:
         return None
     else:
-        return sqrt(x)
+        return x ** (1/2)
     
